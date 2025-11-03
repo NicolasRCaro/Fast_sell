@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="src/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>proyecto</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <h1>Fast Sell</h1>
+    <p class="subtitle">El carro de tus sueños en una sola app.</p>
+  </header>
+
+  <main class="container">
+    <section id="grid" class="c-grid" aria-live="polite"></section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="close">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">© <span id="year"></span> Fast Sell todos los derechos reservados.</footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
