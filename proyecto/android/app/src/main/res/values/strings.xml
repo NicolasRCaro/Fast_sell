@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">fast_sell</string>
+    <string name="title_activity_main">fast_sell</string>
+    <string name="package_name">com.fastsell.app</string>
+    <string name="custom_url_scheme">com.fastsell.app</string>
+</resources>

@@ -48,6 +48,206 @@ const cars = [
     price: 165000,
     img: '/Imagenes/Supra.jpg',
     description: 'Su historia no solo está llena de éxitos en el mundo de la velocidad, sino también de una presencia cultural icónica.'
+  },
+  {
+    id: 'nissan-gtr-r35',
+    brand: 'Nissan',
+    model: 'GT-R R35',
+    year: 2019,
+    hp: 565,
+    price: 115000,
+    img: '/Imagenes/GTR.jpg',
+    description: 'Uno de los deportivos japoneses más emblemáticos, con tracción total y aceleración explosiva.'
+  },
+  {
+    id: 'audi-r8-v10',
+    brand: 'Audi',
+    model: 'R8 V10 Plus',
+    year: 2020,
+    hp: 602,
+    price: 190000,
+    img: '/Imagenes/Audi.jpg',
+    description: 'Superdeportivo alemán con un V10 atmosférico único en su clase y manejo impecable.'
+  },
+  {
+    id: 'bmw-m4-g82',
+    brand: 'BMW',
+    model: 'M4 Competition',
+    year: 2022,
+    hp: 503,
+    price: 89000,
+    img: '/Imagenes/BMW.jpg',
+    description: 'Coupé de alto rendimiento con diseño moderno y prestaciones agresivas.'
+  },
+  {
+    id: 'mercedes-amg-gt',
+    brand: 'Mercedes-AMG',
+    model: 'GT R',
+    year: 2018,
+    hp: 577,
+    price: 132000,
+    img: '/Imagenes/AMG.jpg',
+    description: 'Diseño largo y agresivo, pensado para la pista con ingeniería alemana de precisión.'
+  },
+  {
+    id: 'chevrolet-corvette-c8',
+    brand: 'Chevrolet',
+    model: 'Corvette C8',
+    year: 2021,
+    hp: 495,
+    price: 72000,
+    img: '/Imagenes/C8.jpeg',
+    description: 'Motor central por primera vez en Corvette, rendimiento increíble a un precio competitivo.'
+  },
+  {
+    id: 'ford-mustang-gt500',
+    brand: 'Ford',
+    model: 'Shelby GT500',
+    year: 2020,
+    hp: 760,
+    price: 95000,
+    img: '/Imagenes/Ford.jpg',
+    description: 'Muscle car extremo con supercargador y un rugido inconfundible.'
+  },
+  {
+    id: 'dodge-challenger-demon',
+    brand: 'Dodge',
+    model: 'Challenger SRT Demon',
+    year: 2018,
+    hp: 840,
+    price: 130000,
+    img: '/Imagenes/Dodge.jpg',
+    description: 'Uno de los autos de producción más potentes para drag racing.'
+  },
+  {
+    id: 'aston-martin-vantage',
+    brand: 'Aston Martin',
+    model: 'Vantage',
+    year: 2019,
+    hp: 503,
+    price: 150000,
+    img: '/Imagenes/Vantage.jpg',
+    description: 'Lujo británico con un estilo elegante y motor AMG V8 biturbo.'
+  },
+  {
+    id: 'jaguar-f-type-r',
+    brand: 'Jaguar',
+    model: 'F-Type R',
+    year: 2020,
+    hp: 575,
+    price: 112000,
+    img: '/Imagenes/Jaguar.jpg',
+    description: 'Diseño exquisito y un V8 con sonido único.'
+  },
+  {
+    id: 'lotus-evora-gt',
+    brand: 'Lotus',
+    model: 'Evora GT',
+    year: 2021,
+    hp: 416,
+    price: 120000,
+    img: '/Imagenes/Lotus.jpg',
+    description: 'Ligero y ágil, un verdadero auto enfocado en el manejo puro.'
+  },
+  {
+    id: 'bugatti-chiron',
+    brand: 'Bugatti',
+    model: 'Chiron',
+    year: 2019,
+    hp: 1500,
+    price: 3000000,
+    img: '/Imagenes/Chiron.jpg',
+    description: 'Exclusividad absoluta con rendimiento que supera cualquier estándar.'
+  },
+  {
+    id: 'koenigsegg-jesko',
+    brand: 'Koenigsegg',
+    model: 'Jesko',
+    year: 2021,
+    hp: 1600,
+    price: 2800000,
+    img: '/Imagenes/Jesko.jpg',
+    description: 'Ingeniería extrema con récords de velocidad en mente.'
+  },
+  {
+    id: 'pagani-huayra',
+    brand: 'Pagani',
+    model: 'Huayra',
+    year: 2017,
+    hp: 730,
+    price: 2400000,
+    img: '/Imagenes/Huayra.jpg',
+    description: 'Artesanía italiana con materiales exóticos y diseño incomparable.'
+  },
+  {
+    id: 'maserati-mc20',
+    brand: 'Maserati',
+    model: 'MC20',
+    year: 2022,
+    hp: 621,
+    price: 210000,
+    img: '/Imagenes/MC20.jpg',
+    description: 'El renacimiento deportivo de Maserati con tecnología de punta.'
+  },
+  {
+    id: 'lexus-lfa',
+    brand: 'Lexus',
+    model: 'LFA',
+    year: 2012,
+    hp: 552,
+    price: 850000,
+    img: '/Imagenes/LFA.jpeg',
+    description: 'Uno de los mejores motores V10 jamás creados, con producción limitada.'
+  },
+  {
+    id: 'subaru-wrx-sti',
+    brand: 'Subaru',
+    model: 'WRX STI',
+    year: 2019,
+    hp: 310,
+    price: 45000,
+    img: '/Imagenes/Subaru.jpg',
+    description: 'Tracción total y espíritu rally, ideal para conducción deportiva diaria.'
+  },
+  {
+    id: 'mazda-rx7-fd',
+    brand: 'Mazda',
+    model: 'RX-7 FD',
+    year: 1997,
+    hp: 276,
+    price: 90000,
+    img: '/Imagenes/Mazda.jpg',
+    description: 'Motor rotativo icónico y uno de los JDM más queridos de la historia.'
+  },
+  {
+    id: 'honda-nsx',
+    brand: 'Honda',
+    model: 'NSX',
+    year: 1998,
+    hp: 290,
+    price: 140000,
+    img: '/Imagenes/NSX.jpg',
+    description: 'Supercar japonés con alma pura y manejo sublime.'
+  },
+  {
+    id: 'tesla-roadster',
+    brand: 'Tesla',
+    model: 'Roadster',
+    year: 2023,
+    hp: 1000,
+    price: 200000,
+    img: '/Imagenes/tesla.jpg',
+    description: 'Aceleración eléctrica extrema y diseño futurista.'
+  },
+  {
+    id: 'rimac-nevera',
+    brand: 'Rimac',
+    model: 'Nevera',
+    year: 2022,
+    hp: 1914,
+    price: 2200000,
+    img: '/Imagenes/Nevera.jpg',
+    description: 'Superdeportivo eléctrico que rompe récords en todos los sentidos.'
   }
 ];
 
